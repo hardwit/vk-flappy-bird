@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/vk-flappy-bird/static/js/main.1bd43f76.chunk.js",
-    "main.js.map": "/vk-flappy-bird/static/js/main.1bd43f76.chunk.js.map",
+    "main.js": "/vk-flappy-bird/static/js/main.a932cab1.chunk.js",
+    "main.js.map": "/vk-flappy-bird/static/js/main.a932cab1.chunk.js.map",
     "runtime-main.js": "/vk-flappy-bird/static/js/runtime-main.374539dc.js",
     "runtime-main.js.map": "/vk-flappy-bird/static/js/runtime-main.374539dc.js.map",
     "static/css/2.1e562f28.chunk.css": "/vk-flappy-bird/static/css/2.1e562f28.chunk.css",
     "static/js/2.c0f66518.chunk.js": "/vk-flappy-bird/static/js/2.c0f66518.chunk.js",
     "static/js/2.c0f66518.chunk.js.map": "/vk-flappy-bird/static/js/2.c0f66518.chunk.js.map",
     "index.html": "/vk-flappy-bird/index.html",
-    "precache-manifest.a16acf50ce1e6363de4930160e93a101.js": "/vk-flappy-bird/precache-manifest.a16acf50ce1e6363de4930160e93a101.js",
+    "precache-manifest.b2058087e991fb2e146551cb7ab742fe.js": "/vk-flappy-bird/precache-manifest.b2058087e991fb2e146551cb7ab742fe.js",
     "service-worker.js": "/vk-flappy-bird/service-worker.js",
     "static/css/2.1e562f28.chunk.css.map": "/vk-flappy-bird/static/css/2.1e562f28.chunk.css.map",
     "static/js/2.c0f66518.chunk.js.LICENSE.txt": "/vk-flappy-bird/static/js/2.c0f66518.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.374539dc.js",
     "static/css/2.1e562f28.chunk.css",
     "static/js/2.c0f66518.chunk.js",
-    "static/js/main.1bd43f76.chunk.js"
+    "static/js/main.a932cab1.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "786e3c3b4c61460bf7267d8af2fa060f",
+    "revision": "7ee238a2bc3bbfa7ff5e7ce1b161cf83",
     "url": "/vk-flappy-bird/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vk-flappy-bird/static/js/2.c0f66518.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "687b3ee4823b21118eba",
-    "url": "/vk-flappy-bird/static/js/main.1bd43f76.chunk.js"
+    "revision": "49b9f92619ae7c35c91b",
+    "url": "/vk-flappy-bird/static/js/main.a932cab1.chunk.js"
   },
   {
     "revision": "79a28816348cc649c94b",
