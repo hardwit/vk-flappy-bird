@@ -50,7 +50,7 @@ export const RatingScreen = ({ active, onClose }) => {
             Топ-100
         </ModalPageHeader>
       }>
-         {!!users.length && <List>
+         {!!users.length && <StyledList>
           {users.map((user) => {
             return (
               <StyledCell
@@ -63,7 +63,7 @@ export const RatingScreen = ({ active, onClose }) => {
               </StyledCell>
             );
           })}
-          </List>}
+          </StyledList>}
 
           {!users.length && 
             <SpinnerBox>
@@ -73,6 +73,10 @@ export const RatingScreen = ({ active, onClose }) => {
     </ModalRoot>
     )
 }
+
+const StyledList = styled(List)`
+  padding-bottom: 40px;
+`
 
 const StyledCell = styled(Cell)`
   .Cell__children {

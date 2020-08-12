@@ -131,9 +131,11 @@ const Land = styled.div`
 
 const Score = styled.div`
   position: absolute;
-  top: 10px;
-  left: 20px;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
   color: white;
-  font-size: 25px;
+  font-size: 45px;
+  font-weight: 900;
   z-index: 10;
 `

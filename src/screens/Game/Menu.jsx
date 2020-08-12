@@ -51,7 +51,7 @@ const Score = styled.span`
 const Record = styled.span`
   color: #ffffff;
   position: absolute;
-  top: 25px;
+  top: 100px;
   font-weight: 900;
   font-size: 30px;
 `
