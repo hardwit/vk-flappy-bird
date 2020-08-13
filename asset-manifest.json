@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/vk-flappy-bird/static/js/main.f365d031.chunk.js",
-    "main.js.map": "/vk-flappy-bird/static/js/main.f365d031.chunk.js.map",
+    "main.js": "/vk-flappy-bird/static/js/main.df162770.chunk.js",
+    "main.js.map": "/vk-flappy-bird/static/js/main.df162770.chunk.js.map",
     "runtime-main.js": "/vk-flappy-bird/static/js/runtime-main.374539dc.js",
     "runtime-main.js.map": "/vk-flappy-bird/static/js/runtime-main.374539dc.js.map",
     "static/css/2.1e562f28.chunk.css": "/vk-flappy-bird/static/css/2.1e562f28.chunk.css",
-    "static/js/2.c0f66518.chunk.js": "/vk-flappy-bird/static/js/2.c0f66518.chunk.js",
-    "static/js/2.c0f66518.chunk.js.map": "/vk-flappy-bird/static/js/2.c0f66518.chunk.js.map",
+    "static/js/2.c505151e.chunk.js": "/vk-flappy-bird/static/js/2.c505151e.chunk.js",
+    "static/js/2.c505151e.chunk.js.map": "/vk-flappy-bird/static/js/2.c505151e.chunk.js.map",
     "index.html": "/vk-flappy-bird/index.html",
-    "precache-manifest.193d7d52a19ea6532c8c485df050bfeb.js": "/vk-flappy-bird/precache-manifest.193d7d52a19ea6532c8c485df050bfeb.js",
+    "precache-manifest.170b419e935268ae793f17e5131983af.js": "/vk-flappy-bird/precache-manifest.170b419e935268ae793f17e5131983af.js",
     "service-worker.js": "/vk-flappy-bird/service-worker.js",
     "static/css/2.1e562f28.chunk.css.map": "/vk-flappy-bird/static/css/2.1e562f28.chunk.css.map",
-    "static/js/2.c0f66518.chunk.js.LICENSE.txt": "/vk-flappy-bird/static/js/2.c0f66518.chunk.js.LICENSE.txt",
+    "static/js/2.c505151e.chunk.js.LICENSE.txt": "/vk-flappy-bird/static/js/2.c505151e.chunk.js.LICENSE.txt",
     "static/media/pipe-green-bottom.png": "/vk-flappy-bird/static/media/pipe-green-bottom.671bb8b6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.374539dc.js",
     "static/css/2.1e562f28.chunk.css",
-    "static/js/2.c0f66518.chunk.js",
-    "static/js/main.f365d031.chunk.js"
+    "static/js/2.c505151e.chunk.js",
+    "static/js/main.df162770.chunk.js"
   ]
 }
