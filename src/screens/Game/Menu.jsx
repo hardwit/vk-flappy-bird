@@ -20,11 +20,11 @@ export const Menu = ({ firstRun, score, onPlay, onRestart, onOpenRating }) => {
         </Record>
       }
 
-      <Button onMouseDown={handleClick} onTouchStart={handleClick}>
+      <Button onClick={handleClick}>
         { firstRun ? 'Играть' : 'Начать заново'}
       </Button>
 
-      <Button onMouseDown={onOpenRating} onTouchStart={onOpenRating}>
+      <Button onClick={onOpenRating}>
         Топ-100
       </Button>
     </MenuBox>

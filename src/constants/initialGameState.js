@@ -51,7 +51,7 @@ export const initialGameState = {
         min: 40,
         max: deviceHeight / 2,
       },
-      gap: deviceHeight < 550 ? 130 : deviceHeight < 670 ? 145 : 165,
+      gap: deviceHeight < 550 ? 130 : deviceHeight < 670 ? 145 : 160,
     },
     list: [],
   },

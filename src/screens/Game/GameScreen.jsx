@@ -8,15 +8,18 @@ import { actions as userActions } from '../../store/userSlice'
 import { GAME_STATUSES } from '../../constants'
 import sceneBgImg from '../../images/background-night.png'
 import landImg from '../../images/base-night.png'
+import tutorialImg from '../../images/preview.png'
 import { Menu } from './Menu'
 import { useRef } from 'react'
 import { useEffect } from 'react'
 import { userApi } from '../../api/user'
+import { useState } from 'react'
 
 export const GamesScreen = ({ onOpenRating }) => {
   const dispatch = useDispatch()
   const { bird, pipes, game, player } = useSelector(state => state.game)
   const topScore = useSelector(state => state.user.score)
+  const [tutorialShowed, toggleTutorial] = useState(false)
   const frameIdRef = useRef(null)
 
   const isPlaying = game.status === GAME_STATUSES.playing
@@ -56,8 +59,13 @@ export const GamesScreen = ({ onOpenRating }) => {
     dispatch(gameActions.flyUp())
   }
 
-  const handleStartPlaying = () => {
+  const handleClickOnTutorial = () => {
+    toggleTutorial(false)
     dispatch(gameActions.play())
+  }
+
+  const handleStartPlaying = () => {
+    toggleTutorial(true)
   }
 
   const handleRestart = () => {
@@ -80,8 +88,14 @@ export const GamesScreen = ({ onOpenRating }) => {
 
         <Land isSliding={isPlaying} />
 
-        { game.status === GAME_STATUSES.over &&
+        { game.status === GAME_STATUSES.over && !tutorialShowed &&
           <Menu score={player.score} firstRun={player.firstRun} onPlay={handleStartPlaying} onRestart={handleRestart} onOpenRating={onOpenRating} />
+        }
+
+        {tutorialShowed && 
+          <TutorialBox onClick={handleClickOnTutorial}>
+            <TutorialImg src={tutorialImg}/>
+          </TutorialBox>
         }
       </Scene>
     </GameScreenBox>
@@ -138,4 +152,21 @@ const Score = styled.div`
   font-size: 45px;
   font-weight: 900;
   z-index: 10;
+`
+
+const TutorialBox = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
+const TutorialImg = styled.img`
+  margin-top: -260px;
+  width: 300px;
+  height: 400px;
 `
